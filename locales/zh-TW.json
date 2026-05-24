@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "code": "zh-TW",
+    "name": "Traditional Chinese",
+    "nativeName": "繁體中文"
+  },
+  "dashboard": {
+    "title": "CRUCIX — 情報終端",
+    "bootTitle": "CRUCIX 情報引擎",
+    "bootSubtitle": "本地情報站 · 31 個來源",
+    "waitingForSweep": "等待首次掃描...",
+    "sourcesOk": "來源正常",
+    "lastSweep": "上次掃描",
+    "nextSweep": "下次掃描",
+    "sweep": "掃描",
+    "sources": "來源",
+    "delta": "變化",
+    "highAlert": "高度警戒",
+    "riskOff": "風險規避",
+    "riskOn": "風險偏好",
+    "mixed": "混合",
+    "terminalActive": "終端運行中",
+    "perf": "效能",
+    "perfLow": "低",
+    "perfHigh": "高",
+    "guideBtn": "訊號說明"
+  },
+  "boot": {
+    "initializing": "正在初始化 CRUCIX 引擎 v2.1.0",
+    "connecting": "正在連接 {count} 個 OSINT 來源...",
+    "sourceGroup1": "OpenSky · FIRMS · KiwiSDR · 海事",
+    "sourceGroup2": "FRED · BLS · EIA · 財政部 · GSCPI",
+    "sourceGroup3": "Telegram · Safecast · EPA · WHO · OFAC",
+    "sourceGroup4": "GDELT · NOAA · 專利 · Bluesky · Reddit",
+    "sourceGroup5": "USGS · ECB · CVE · Copernicus · CelesTrak",
+    "sweepComplete": "掃描完成 — {ok}/{total} 個來源",
+    "ok": "正常",
+    "acledLayer": "ACLED 衝突圖層",
+    "events": "事件",
+    "degraded": "降級",
+    "flightCorridors": "飛行走廊",
+    "active": "活躍",
+    "dualProjection": "雙重投影",
+    "ready": "就緒",
+    "intelligenceSynthesis": "情報合成"
+  },
+  "panels": {
+    "sensorGrid": "感測器網格",
+    "tradeIdeas": "可操作交易建議",
+    "osintFeed": "OSINT 情報流",
+    "osintStream": "OSINT 即時流",
+    "nuclearWatch": "核輻射監控",
+    "newsTicker": "即時新聞跑馬燈",
+    "sweepDelta": "掃描變化",
+    "macroMarkets": "總經 + 市場",
+    "healthAlerts": "健康警報",
+    "riskGauges": "風險儀表",
+    "crossSourceSignals": "跨來源訊號",
+    "signalCore": "訊號核心",
+    "seismicWatch": "地震監控",
+    "cyberWatch": "網路安全監控",
+    "spaceWatch": "太空監控",
+    "europeAlerts": "歐洲警報",
+    "ecbIndicators": "ECB 指標"
+  },
+  "layers": {
+    "airActivity": "航空活動",
+    "thermalSpikes": "熱源異常",
+    "sdrCoverage": "SDR 覆蓋",
+    "maritimeWatch": "海事監控",
+    "nuclearSites": "核設施",
+    "conflictEvents": "衝突事件",
+    "healthWatch": "衛生監控",
+    "worldNews": "全球新聞",
+    "osintFeed": "OSINT 情報流",
+    "theaters": "戰區",
+    "nightDet": "夜間偵測",
+    "online": "在線",
+    "chokepoints": "要道",
+    "monitors": "監測站",
+    "fatalities": "死亡人數",
+    "whoAlerts": "WHO 警報",
+    "rssGeolocated": "RSS 地理定位",
+    "earthquakes": "地震",
+    "seismicEvents": "地震事件",
+    "cyberVulns": "網路漏洞",
+    "spaceActivity": "太空活動",
+    "europeEmergency": "歐洲緊急事件"
+  },
+  "map": {
+    "worldNews": "全球新聞",
+    "healthAlert": "衛生警報",
+    "chokepoint": "戰略要道",
+    "nuclearSite": "核設施",
+    "osintEvent": "OSINT 事件",
+    "thermalDetection": "熱源偵測",
+    "aircraft": "飛機",
+    "rssGeolocated": "RSS 地理定位",
+    "airTraffic": "航空交通",
+    "thermalFire": "熱源/火災",
+    "conflict": "衝突",
+    "sdrReceiver": "SDR 接收站",
+    "scrollToZoom": "滾輪縮放 · 拖曳平移",
+    "globeMode": "球形模式",
+    "flatMode": "平面模式",
+    "earthquake": "地震",
+    "disaster": "災害",
+    "weatherAlert": "天氣警報",
+    "epaRadNet": "EPA 輻射網",
+    "spaceStation": "太空站",
+    "gdeltEvent": "GDELT 事件"
+  },
+  "ideas": {
+    "confidence": "信心度",
+    "horizon": "時間範圍",
+    "risk": "風險",
+    "signals": "訊號",
+    "rationale": "理由",
+    "aiEnhanced": "AI 增強",
+    "llmOff": "LLM 關閉",
+    "pending": "處理中",
+    "llmNotConfigured": "LLM 未設定",
+    "llmHelp": "在 .env 中設定 LLM_PROVIDER 及憑證以啟用 AI 交易建議",
+    "disclosure": "僅供參考。本資訊不構成財務建議、買賣任何證券的建議或任何形式的招攬。所有基於訊號的觀察均來自公開 OSINT 數據，不應作為投資決策依據。進行任何投資前請諮詢持牌財務顧問。過往表現不代表未來結果。"
+  },
+  "regions": {
+    "world": "全球",
+    "americas": "美洲",
+    "europe": "歐洲",
+    "middleEast": "中東",
+    "asiaPacific": "亞太",
+    "africa": "非洲"
+  },
+  "badges": {
+    "radiation": "輻射",
+    "live": "即時",
+    "delayed": "延遲",
+    "items": "項目",
+    "urgent": "緊急",
+    "worldview": "全球視角",
+    "hotMetrics": "熱門指標",
+    "stress": "壓力",
+    "sweeping": "掃描中...",
+    "europe": "歐洲",
+    "orbital": "軌道"
+  },
+  "delta": {
+    "baseline": "基準",
+    "escalation": "升溫",
+    "deescalation": "降溫",
+    "stable": "穩定",
+    "newSignals": "新訊號",
+    "resolved": "已解除",
+    "noChanges": "自上次掃描以來無變化",
+    "changes": "變化",
+    "critical": "關鍵",
+    "new": "新增"
+  },
+  "metrics": {
+    "wtiCrude": "WTI 原油",
+    "brent": "布蘭特原油",
+    "natGas": "天然氣",
+    "vix": "VIX 恐慌指數",
+    "fedFunds": "聯邦基金利率",
+    "gscpi": "全球供應鏈壓力指數",
+    "cpiMom": "CPI 月增",
+    "unemployment": "失業率",
+    "hySpread": "高收益利差",
+    "usdIndex": "美元指數",
+    "joblessClaims": "初領失業金",
+    "mortgage30y": "30年房貸利率",
+    "m2Supply": "M2 貨幣供給",
+    "natDebt": "國家債務",
+    "wti5day": "WTI 5日走勢",
+    "indexes": "指數",
+    "crypto": "加密貨幣",
+    "energyMacro": "能源 + 總經",
+    "vsPrior": "較前期",
+    "ecbRate": "ECB 利率",
+    "eurusd": "歐元/美元",
+    "euM3": "歐盟 M3",
+    "euHicp": "歐盟 HICP",
+    "earthquakes7d": "地震（7日）",
+    "criticalCves": "重大 CVE",
+    "spaceObjects": "太空物體",
+    "starlink": "Starlink",
+    "europeAlerts": "歐盟警報"
+  },
+  "signalMetrics": {
+    "incidentTempo": "事件頻率",
+    "airTheaters": "航空戰區",
+    "thermalSpikes": "熱源異常",
+    "sdrNodes": "SDR 節點",
+    "chokepoints": "戰略要道",
+    "whoAlerts": "WHO 警報"
+  },
+  "nuclear": {
+    "allSitesNormal": "所有站點正常",
+    "anomalyDetected": "偵測到異常",
+    "noData": "無資料"
+  },
+  "seismic": {
+    "noRecentQuakes": "無顯著地震",
+    "majorQuake": "偵測到重大地震",
+    "tsunamiRisk": "海嘯風險",
+    "mag": "規模"
+  },
+  "cyber": {
+    "noAlerts": "無重大 CVE",
+    "criticalAlert": "重大漏洞警報",
+    "cvss": "CVSS",
+    "critical": "重大"
+  },
+  "space": {
+    "noActivity": "活動正常",
+    "launchDetected": "偵測到發射活動",
+    "objectsTracked": "個物體追蹤中",
+    "newLast30d": "新增（30日）",
+    "satellites": "顆衛星",
+    "recentLaunches": "近期發射",
+    "totalTracked": "追蹤總數",
+    "byCountry": "按國家",
+    "constellations": "星座群",
+    "launches": "次發射"
+  },
+  "europe": {
+    "noAlerts": "無活躍警報",
+    "activeAlerts": "活躍警報",
+    "fires": "火災",
+    "floods": "洪水",
+    "types": "類型"
+  },
+  "time": {
+    "justNow": "剛剛",
+    "hoursAgo": "{hours} 小時前",
+    "daysAgo": "{days} 天前"
+  },
+  "bot": {
+    "commands": {
+      "status": "取得系統健康狀態、上次掃描時間、來源狀態",
+      "sweep": "手動觸發掃描",
+      "brief": "取得最新情報的簡要文字摘要",
+      "portfolio": "顯示目前持倉與損益（需連接 Alpaca）",
+      "alerts": "顯示近期警報歷史",
+      "mute": "靜音警報 1 小時（或 /mute 2h、/mute 4h）",
+      "unmute": "恢復警報",
+      "help": "顯示可用指令"
+    },
+    "messages": {
+      "alertsMuted": "🔇 警報已靜音 {hours} 小時 — 至 {time} UTC",
+      "useUnmute": "使用 /unmute 恢復。",
+      "alertsResumed": "🔔 警報已恢復。您將收到下一次訊號評估。",
+      "sweepTriggered": "🚀 已觸發手動掃描。若偵測到重要訊號將發送警報。",
+      "sweepInProgress": "🔄 掃描正在進行中，請稍候。",
+      "noDataYet": "⏳ 尚無資料 — 等待首次掃描完成。",
+      "noRecentAlerts": "近期無警報。",
+      "recentAlerts": "📋 近期警報（最近 {count} 條）",
+      "commandsTip": "提示：指令不區分大小寫",
+      "commandFailed": "❌ 指令執行失敗：{error}",
+      "portfolioNotAvailable": "📊 投資組合整合需要 Alpaca MCP 連接。\n請使用 Crucix 儀表板或 Claude 代理進行投資組合查詢。"
+    },
+    "status": {
+      "title": "🖥️ CRUCIX 狀態",
+      "uptime": "運行時間",
+      "lastSweep": "上次掃描",
+      "nextSweep": "下次掃描",
+      "sweepInProgress": "掃描進行中",
+      "yes": "🔄 是",
+      "no": "⏸️ 否",
+      "sources": "來源",
+      "failed": "失敗",
+      "llm": "LLM",
+      "enabled": "✅",
+      "disabled": "❌ 已停用",
+      "sseClients": "SSE 客戶端",
+      "dashboard": "儀表板",
+      "pending": "待處理",
+      "never": "從未"
+    },
+    "brief": {
+      "title": "📋 CRUCIX 簡報",
+      "direction": "方向",
+      "changes": "項變化",
+      "criticalChanges": "項關鍵",
+      "osint": "📡 OSINT",
+      "urgentSignals": "條緊急訊號",
+      "totalPosts": "條貼文",
+      "topIdeas": "💡 熱門建議"
+    },
+    "alertTiers": {
+      "flash": "閃報",
+      "priority": "優先",
+      "routine": "常規"
+    }
+  },
+  "alerts": {
+    "tiers": {
+      "flash": {
+        "label": "閃報",
+        "description": "需立即行動 — 市場衝擊，時效緊迫"
+      },
+      "priority": {
+        "label": "優先",
+        "description": "重要訊號群集 — 數小時內處理"
+      },
+      "routine": {
+        "label": "常規",
+        "description": "值得關注的變化 — 僅供參考，不急迫"
+      }
+    },
+    "confidence": {
+      "high": "高",
+      "medium": "中",
+      "low": "低"
+    },
+    "fields": {
+      "direction": "方向",
+      "confidence": "信心度",
+      "crossCorrelation": "跨域關聯",
+      "action": "行動",
+      "signals": "訊號",
+      "monitor": "監控"
+    },
+    "messages": {
+      "alertsMuted": "警報已靜音",
+      "mutedUntil": "警報已靜音 {hours} 小時 — 至 {time} UTC。",
+      "useUnmuteToResume": "使用 /unmute 恢復。",
+      "alertsResumed": "警報已恢復",
+      "willReceiveNext": "您將收到下一次訊號評估。"
+    },
+    "ruleBasedHeadlines": {
+      "nuclearAnomaly": "偵測到核輻射異常",
+      "crossDomainSignals": "{count} 條跨域關鍵訊號",
+      "escalatingSignals": "{count} 條升溫訊號",
+      "osintSurge": "OSINT 激增：{count} 條新緊急貼文",
+      "signalChangeDetected": "偵測到訊號變化"
+    }
+  },
+  "discord": {
+    "commands": {
+      "status": "系統健康狀態、上次掃描時間、來源狀態",
+      "sweep": "手動觸發掃描",
+      "brief": "情報簡要摘要",
+      "portfolio": "投資組合狀態（需連接 Alpaca）",
+      "alerts": "近期警報歷史",
+      "mute": "靜音警報（預設 1 小時）",
+      "unmute": "恢復警報",
+      "muteHoursOption": "靜音小時數（預設：1）"
+    }
+  },
+  "llm": {
+    "systemPrompt": "你是一家宏觀情報公司的量化分析師。你從 25 個來源接收結構化 OSINT 和經濟數據，並產出 5-8 個可操作的交易建議。\n\n規則：\n- 每個建議必須引用輸入中的具體數據點\n- 包含進場理由、風險因素和時間範圍\n- 混合地緣政治、經濟和市場訊號 — 跨領域交叉關聯\n- 具體說明：點名工具（股票代碼、期貨、ETF），而非模糊的行業\n- 若 delta 顯示重大變化，以此為首\n- 除非條件發生重大變化，否則不重複「先前建議」列表中的建議\n- 信心度評級：HIGH（多個確認訊號）、MEDIUM（論點有支撐）、LOW（投機性）\n\n僅輸出有效 JSON 陣列。每個物件：\n{\n  \"title\": \"簡短標題（最多 10 個字）\",\n  \"type\": \"LONG|SHORT|HEDGE|WATCH|AVOID\",\n  \"ticker\": \"主要工具\",\n  \"confidence\": \"HIGH|MEDIUM|LOW\",\n  \"rationale\": \"引用具體數據的 2-3 句解釋\",\n  \"risk\": \"主要風險因素\",\n  \"horizon\": \"日內|數日|數週|數月\",\n  \"signals\": [\"訊號1\", \"訊號2\"]\n}"
+  },
+  "api": {
+    "errors": {
+      "noDataYet": "尚無資料 — 首次掃描進行中"
+    }
+  }
+}
